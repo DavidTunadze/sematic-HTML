@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* An image has benn insert for the backgraund at the specified dimension  */
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./pair-headphones-colorful-background-generative-ai_97167-1733.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+/* Used to give a color to the main tag bicause the <h1> tag is arledy specifaid to be centred*/  
+h1{
+    color: green;
+}
+/*the class instructs its children to stend side by side */
+.nevbar{
+    display: flex;
+}
+/* .nevbar is the child class thet specifies how far they should be from the left of the row */
+.child{
+    margin-left: 10px;
+    width: 100px;
+    float: left;
+    height: 90px;
+}
+/*it is placed insid the ssematic teg <mine> within the <div> teg as a cild and indicates where the searched filed should be */
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 15px;
+}
+/*l created this class to align the second header title and center it  */
+.YT{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
